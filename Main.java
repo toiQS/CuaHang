@@ -1,5 +1,3 @@
-package CuaHang;
-
 import java.util.Scanner;
 
 public class MAIN {
