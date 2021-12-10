@@ -19,27 +19,27 @@ public class Quay3 {
 
   }
 
-  public static void themThit(String ten, int soLuong) {
-    Thit thit = new Thit(ten, soLuong);
+  public static void themThit(String ten, int soLuong, int gia) {
+    Thit thit = new Thit(ten, soLuong, gia);
     soLuongHangHoa =+ soLuong;
     soLuongHangHoa =+ soLuong;
     listThit.add(thit);
   }
 
-  public static void themGiaDung(String ten, int soLuong) {
-    GiaDung giaDung = new GiaDung(ten, soLuong);
+  public static void themGiaDung(String ten, int soLuong, int gia) {
+    GiaDung giaDung = new GiaDung(ten, soLuong, gia);
     soLuongHangHoa =+ soLuong;
     listGiaDung.add(giaDung);
   }
 
-  public static void themRauCu(String ten, int soLuong) {
-    RauCu rauCu = new RauCu(ten, soLuong);
+  public static void themRauCu(String ten, int soLuong, int gia) {
+    RauCu rauCu = new RauCu(ten, soLuong, gia);
     soLuongHangHoa =+ soLuong;
     listRauCu.add(rauCu);
   }
 
-  public static void themNuoc(String ten, int soLuong) {
-    Nuoc nuoc = new Nuoc(ten, soLuong);
+  public static void themNuoc(String ten, int soLuong, int gia) {
+    Nuoc nuoc = new Nuoc(ten, soLuong, gia);
     soLuongHangHoa =+ soLuong;
     listNuoc.add(nuoc);
   }

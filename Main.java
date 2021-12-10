@@ -1,5 +1,4 @@
 
-
 import java.util.Scanner;
 
 import Quay.Quay1;
@@ -35,9 +34,11 @@ public class MAIN {
                       String ten = scanner.nextLine();
                       System.out.print("So luong: ");
                       int soLuong = scanner.nextInt();
+                      System.out.println("Gia :");
+                      int gia = scanner.nextInt();
                       scanner.nextLine();
       
-                      Quay1.themThit(ten, soLuong);
+                      Quay1.themThit(ten, soLuong, gia);
                     }
                     case 2 -> {
                       System.out.println("***** Them Gia Dung *****");
@@ -46,9 +47,11 @@ public class MAIN {
                       String ten = scanner.nextLine();
                       System.out.print("So luong: ");
                       int soLuong = scanner.nextInt();
+                      System.out.println("Gia :");
+                      int gia = scanner.nextInt();
                       scanner.nextLine();
       
-                      Quay1.themGiaDung(ten, soLuong);
+                      Quay1.themGiaDung(ten, soLuong, gia);
                     }
                     case 3 -> {
                       System.out.println("***** Them Rau Cu *****");
@@ -57,9 +60,11 @@ public class MAIN {
                       String ten = scanner.nextLine();
                       System.out.print("So luong: ");
                       int soLuong = scanner.nextInt();
+                      System.out.println("Gia :");
+                      int gia = scanner.nextInt();
                       scanner.nextLine();
       
-                      Quay1.themRauCu(ten, soLuong);
+                      Quay1.themRauCu(ten, soLuong, gia);
                     }
                     case 4 -> {
                       System.out.println("***** Them Nuoc *****");
@@ -68,9 +73,11 @@ public class MAIN {
                       String ten = scanner.nextLine();
                       System.out.print("So luong: ");
                       int soLuong = scanner.nextInt();
+                      System.out.println("Gia :");
+                      int gia = scanner.nextInt();
                       scanner.nextLine();
       
-                      Quay1.themNuoc(ten, soLuong);
+                      Quay1.themNuoc(ten, soLuong, gia);
                     }
                     case 5 -> {
                       endHangHoa = 1;
@@ -94,9 +101,11 @@ public class MAIN {
                       String ten = scanner.nextLine();
                       System.out.print("So luong: ");
                       int soLuong = scanner.nextInt();
+                      System.out.println("Gia :");
+                      int gia = scanner.nextInt();
                       scanner.nextLine();
       
-                      Quay2.themThit(ten, soLuong);
+                      Quay2.themThit(ten, soLuong, gia);
                     }
                     case 2 -> {
                       System.out.println("***** Them Gia Dung *****");
@@ -105,9 +114,11 @@ public class MAIN {
                       String ten = scanner.nextLine();
                       System.out.print("So luong: ");
                       int soLuong = scanner.nextInt();
+                      System.out.println("Gia :");
+                      int gia = scanner.nextInt();
                       scanner.nextLine();
       
-                      Quay2.themGiaDung(ten, soLuong);
+                      Quay2.themGiaDung(ten, soLuong, gia);
                     }
                     case 3 -> {
                       System.out.println("***** Them Rau Cu *****");
@@ -116,9 +127,11 @@ public class MAIN {
                       String ten = scanner.nextLine();
                       System.out.print("So luong: ");
                       int soLuong = scanner.nextInt();
+                      System.out.println("Gia :");
+                      int gia = scanner.nextInt();
                       scanner.nextLine();
       
-                      Quay2.themRauCu(ten, soLuong);
+                      Quay2.themRauCu(ten, soLuong, gia);
                     }
                     case 4 -> {
                       System.out.println("***** Them Nuoc *****");
@@ -127,9 +140,11 @@ public class MAIN {
                       String ten = scanner.nextLine();
                       System.out.print("So luong: ");
                       int soLuong = scanner.nextInt();
+                      System.out.println("Gia :");
+                      int gia = scanner.nextInt();
                       scanner.nextLine();
 
-                      Quay2.themNuoc(ten, soLuong);
+                      Quay2.themNuoc(ten, soLuong, gia);
                     }
                     case 5 -> {
                       endHangHoa = 1;
@@ -154,9 +169,11 @@ public class MAIN {
                       String ten = scanner.nextLine();
                       System.out.print("So luong: ");
                       int soLuong = scanner.nextInt();
+                      System.out.println("Gia :");
+                      int gia = scanner.nextInt();
                       scanner.nextLine();
       
-                      Quay3.themThit(ten, soLuong);
+                      Quay3.themThit(ten, soLuong, gia);
                     }
                     case 2 -> {
                       System.out.println("***** Them Gia Dung *****");
@@ -165,9 +182,11 @@ public class MAIN {
                       String ten = scanner.nextLine();
                       System.out.print("So luong: ");
                       int soLuong = scanner.nextInt();
+                      System.out.println("Gia :");
+                      int gia = scanner.nextInt();
                       scanner.nextLine();
       
-                      Quay3.themGiaDung(ten, soLuong);
+                      Quay3.themGiaDung(ten, soLuong, gia);
                     }
                     case 3 -> {
                       System.out.println("***** Them Rau Cu *****");
@@ -176,9 +195,11 @@ public class MAIN {
                       String ten = scanner.nextLine();
                       System.out.print("So luong: ");
                       int soLuong = scanner.nextInt();
+                      System.out.println("Gia :");
+                      int gia = scanner.nextInt();
                       scanner.nextLine();
       
-                      Quay3.themRauCu(ten, soLuong);
+                      Quay3.themRauCu(ten, soLuong, gia);
                     }
                     case 4 -> {
                       System.out.println("***** Them Nuoc *****");
@@ -187,9 +208,11 @@ public class MAIN {
                       String ten = scanner.nextLine();
                       System.out.print("So luong: ");
                       int soLuong = scanner.nextInt();
+                      System.out.println("Gia :");
+                      int gia = scanner.nextInt();
                       scanner.nextLine();
       
-                      Quay3.themNuoc(ten, soLuong);
+                      Quay3.themNuoc(ten, soLuong, gia);
                     }
                     case 5 -> {
                       endHangHoa = 1;
@@ -214,9 +237,11 @@ public class MAIN {
                       String ten = scanner.nextLine();
                       System.out.print("So luong: ");
                       int soLuong = scanner.nextInt();
+                      System.out.println("Gia: ");
+                      int gia = scanner.nextInt();
                       scanner.nextLine();
       
-                      Quay4.themThit(ten, soLuong);
+                      Quay4.themThit(ten, soLuong, gia);
                     }
                     case 2 -> {
                       System.out.println("***** Them Gia Dung *****");
@@ -225,9 +250,11 @@ public class MAIN {
                       String ten = scanner.nextLine();
                       System.out.print("So luong: ");
                       int soLuong = scanner.nextInt();
+                      System.out.println("Gia: ");
+                      int gia = scanner.nextInt();
                       scanner.nextLine();
       
-                      Quay4.themGiaDung(ten, soLuong);
+                      Quay4.themGiaDung(ten, soLuong, gia);
                     }
                     case 3 -> {
                       System.out.println("***** Them Rau Cu *****");
@@ -236,8 +263,11 @@ public class MAIN {
                       String ten = scanner.nextLine();
                       System.out.print("So luong: ");
                       int soLuong = scanner.nextInt();
+                      System.out.println("Gia: ");
+                      int gia = scanner.nextInt();
                       scanner.nextLine();
-                      Quay4.themRauCu(ten, soLuong);
+
+                      Quay4.themRauCu(ten, soLuong, gia);
                     }
                     case 4 -> {
                       System.out.println("***** Them Nuoc *****");
@@ -246,9 +276,11 @@ public class MAIN {
                       String ten = scanner.nextLine();
                       System.out.print("So luong: ");
                       int soLuong = scanner.nextInt();
+                      System.out.println("Gia: ");
+                      int gia = scanner.nextInt();
                       scanner.nextLine();
       
-                      Quay4.themNuoc(ten, soLuong);
+                      Quay4.themNuoc(ten, soLuong, gia);
                     }
                     case 5 -> {
                       endHangHoa = 1;
@@ -268,13 +300,20 @@ public class MAIN {
             }
           } while (endMenuQuay == 0);
         }
+
         case 2 -> {
           System.out.println("Chon xoa");
         }
+
         case 3 -> {
+          System.out.println("Chon sua");
+        }
+
+        case 4 -> {
           System.out.println("Chon tim kiem");
         }
-        case 4 -> {
+
+        case 5 -> {
           // chon quay de xuat thong tin
           int endChonQuay = 0;
           do {
@@ -305,7 +344,8 @@ public class MAIN {
             }
           } while(endChonQuay == 0);
         }
-        case 5 ->{
+
+        case 6 -> {
           System.out.println("Cam on ban da lua chon phan men <3");
           endMenu = 1;
         }
@@ -335,9 +375,10 @@ public class MAIN {
     System.out.println("+============ Menu ============+");
     System.out.println("|     1. Them                  |");
     System.out.println("|     2. Xoa                   |");
-    System.out.println("|     3. Tim kiem              |");
-    System.out.println("|     4. Xuat thong tin        |");
-    System.out.println("|     5. Thoat                 |");
+    System.out.println("|     3. Sua                   |");
+    System.out.println("|     4. Tim kiem              |");
+    System.out.println("|     5. Xuat thong tin        |");
+    System.out.println("|     6. Thoat                 |");
     System.out.println("+==============================+");
   }
 
@@ -355,7 +396,6 @@ public class MAIN {
   static int luaChon() {
     System.out.print("Lua Chon: ");
     Scanner scanner = new Scanner(System.in);
-    int suLuaChon = scanner.nextInt();
-    return suLuaChon;
+    return scanner.nextInt();
   }
 }
