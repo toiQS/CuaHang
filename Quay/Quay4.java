@@ -36,7 +36,7 @@ public class Quay4 {
     listRauCu.add(rauCu);
   }
 
-  public static void themNuoc(String ten, int soLuong) {
+  Public static void themNuoc(String ten, int soLuong) {
     Nuoc nuoc = new Nuoc(ten, soLuong);
     soLuongHangHoa =+ soLuong;
     listNuoc.add(nuoc);
@@ -64,5 +64,6 @@ public class Quay4 {
     for (Nuoc nuoc: listNuoc) {
       System.out.println(nuoc);
     
+    }
   }
 }
