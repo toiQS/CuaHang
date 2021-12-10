@@ -28,7 +28,7 @@ public class QuanLy {
     this.nhanvienList.forEach(o -> System.out.println(o.toString()));
   }
 
-  public List<NhanVien> SuaThongTinNhanVien(int a, NhanVien nhanvien){ //sửa thông tin dựa vào số thứ tự của nhân viên hiện trên danh sách
+  public List<NhanVien> SuaThongTinNhanVien(int a, NhanVien nhanvien){ //sửa thông tin dựa vào số thứ tự của nhân viên hiện trên danh sách stt - 1
     nhanvienList.set(a,nhanvien);
     return nhanvienList;
   }
