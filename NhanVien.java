@@ -4,7 +4,7 @@ public class NhanVien extends ThongTin {
   private String SDT; // Số Điện Thoại
   private String NgayVaoLam;  // ngày vào làm
   private int CCCD; // căn cước công dân
-  public static int ilt = 0; //đếm thứ tự nhân viên
+  public static int ilt = 1; //đếm thứ tự nhân viên
 
   public NhanVien(String Ten, String Ma, String GioiTinh, int CCCD, String DiaChi, String NgayVaoLam, String SDT){
     super(Ten, Ma);
