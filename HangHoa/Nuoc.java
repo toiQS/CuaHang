@@ -1,4 +1,4 @@
-package testJava.HangHoa;
+package HangHoa;
 
 public class Nuoc {
   private String ten;
@@ -11,6 +11,7 @@ public class Nuoc {
 
   @Override
   public String toString() {
-    return ten + ' ' + soLuong;
-  } 
-}
+    return "Ten: " + ten + "\n" + "So luong: " + soLuong;
+  }
+} 
+

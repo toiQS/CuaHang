@@ -1,4 +1,4 @@
-package testJava.HangHoa;
+package HangHoa;
 
 public class RauCu {
   private String ten;
@@ -11,6 +11,6 @@ public class RauCu {
 
   @Override
   public String toString() {
-    return ten + ' ' + soLuong;
+    return "Ten: " + ten + "\n" + "So luong: " + soLuong;
   }
-}
+} 

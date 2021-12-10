@@ -1,4 +1,4 @@
-package testJava.HangHoa;
+package HangHoa;
 
 public class GiaDung {
   private String ten;
@@ -11,6 +11,6 @@ public class GiaDung {
 
   @Override
   public String toString() {
-    return ten + ' ' + soLuong;
+    return "Ten: " + ten + "\n" + "So luong: " + soLuong;
   }
-}
+} 

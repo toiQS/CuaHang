@@ -1,100 +1,70 @@
-package testJava.Quay;
-
-import testJava.HangHoa.Thit;
-import testJava.HangHoa.GiaDung;
-import testJava.HangHoa.Nuoc;
-import testJava.HangHoa.RauCu;
+package Quay;
 
 import java.util.ArrayList;
-import java.util.Scanner;
+
+
+import HangHoa.GiaDung;
+import HangHoa.Nuoc;
+import HangHoa.RauCu;
+import HangHoa.Thit;
 
 public class Quay1 {
+  static int soLuongHangHoa = 0;
+  static ArrayList<Thit> listThit = new ArrayList<Thit>();
+  static ArrayList<GiaDung> listGiaDung = new ArrayList<GiaDung>();
+  static ArrayList<RauCu> listRauCu = new ArrayList<RauCu>();
+  static ArrayList<Nuoc> listNuoc = new ArrayList<Nuoc>();
 
-  public Quay1(int luaChon) {
-    ArrayList<Thit> listThit = new ArrayList<Thit>();
-    ArrayList<GiaDung> listGiaDung = new ArrayList<GiaDung>();
-    ArrayList<RauCu> listRauCu = new ArrayList<>();
-    ArrayList<Nuoc> listNuoc = new ArrayList<Nuoc>();
+  public Quay1() {
 
-    if (luaChon == 1) {
+  }
 
-      System.out.println("1. Thit");
-      System.out.println("2. Gia Dung");
-      System.out.println("3. Rau Cu");
-      System.out.println("4. Nuoc");
-  
-      Scanner scanner = new Scanner(System.in);
-  
-      int luaChon2 = scanner.nextInt();
-      switch(luaChon2) {
-        //listThit 
-        case 1 -> {
-          scanner.nextLine();
-          System.out.print("Ten: ");
-          String ten = scanner.nextLine();
-          System.out.print("So Luong: ");
-          int soLuong = scanner.nextInt();
-  
-          Thit themThit = new Thit(ten, soLuong);
-  
-          listThit.add(themThit);
-        }
-        
-        case 2 -> {
-          scanner.nextLine();
-          System.out.print("Ten: ");
-          String ten = scanner.nextLine();
-          System.out.print("So Luong: ");
-          int soLuong = scanner.nextInt();
-  
-          GiaDung themGiaDung = new GiaDung(ten, soLuong);
-  
-          listGiaDung.add(themGiaDung);
-        }
-  
-        case 3 -> {
-          scanner.nextLine();
-          System.out.print("Ten: ");
-          String ten = scanner.nextLine();
-          System.out.print("So Luong: ");
-          int soLuong = scanner.nextInt();
-  
-          RauCu themRauCu = new RauCu(ten, soLuong);
-  
-          listRauCu.add(themRauCu);
-        }
-  
-        case 4 -> {
-          scanner.nextLine();
-          System.out.print("Ten: ");
-          String ten = scanner.nextLine();
-          System.out.print("So Luong: ");
-          int soLuong = scanner.nextInt();
+  public static void themThit(String ten, int soLuong) {
+    Thit thit = new Thit(ten, soLuong);
+    soLuongHangHoa =+ soLuong;
+    listThit.add(thit);
+  }
 
-          Nuoc themNuoc = new Nuoc(ten, soLuong);
-  
-          listNuoc.add(themNuoc);
-        }
-      }
-  
-      scanner.close();
-    } else {
-      System.out.println("======Thit======");
-      for (Thit tempThit: listThit) {
-        System.out.println(tempThit);
-      }
-      System.out.println("======Gia Dung======");
-      for (GiaDung tempGiaDung: listGiaDung) {
-        System.out.println(tempGiaDung);
-      }
-      System.out.println("======Rau Cu======");
-      for (RauCu tempRauCu: listRauCu) {
-        System.out.println(tempRauCu);
-      }
-      System.out.println("======Nuoc======");
-      for (Nuoc tempNuoc: listNuoc) {
-        System.out.println(tempNuoc);
-      }
+  public static void themGiaDung(String ten, int soLuong) {
+    GiaDung giaDung = new GiaDung(ten, soLuong);
+    soLuongHangHoa =+ soLuong;
+    listGiaDung.add(giaDung);
+  }
+
+  public static void themRauCu(String ten, int soLuong) {
+    RauCu rauCu = new RauCu(ten, soLuong);
+    soLuongHangHoa =+ soLuong;
+    listRauCu.add(rauCu);
+  }
+
+  public static void themNuoc(String ten, int soLuong) {
+    Nuoc nuoc = new Nuoc(ten, soLuong);
+    soLuongHangHoa =+ soLuong;
+    listNuoc.add(nuoc);
+  }
+
+  public static void xuatThongTin() {
+    System.out.println("So luong hang hoa hien co tai quay: " + soLuongHangHoa);
+    System.out.println("Chi tiet: ");
+    System.out.println("===== Thit =====");
+    for (Thit thit: listThit) {
+      System.out.println(thit);
     }
+
+    System.out.println("===== Gia Dung =====");
+    for (GiaDung giaDung: listGiaDung) {
+      System.out.println(giaDung);
+    }
+
+    System.out.println("===== Rau Cu =====");
+    for (RauCu rauCu: listRauCu) {
+      System.out.println(rauCu);
+    }
+
+    System.out.println("===== Nuoc =====");
+    for (Nuoc nuoc: listNuoc) {
+      System.out.println(nuoc);
+    }
+
   }
 }
